@@ -7,7 +7,7 @@ app = Flask(__name__)
 def greet():
     name = request.args.get('name', 'Recruto')
     message = request.args.get('message', 'Давай дружить!')
-    return f"Hello {name}! {message}"
+    return f"Hello {name}! {message}!"
 
 
 if __name__ == '__main__':
